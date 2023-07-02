@@ -1,0 +1,49 @@
+:root{
+    --primary: rgb(247, 209, 13);
+    --secondary: #0E0A0A;
+    --secondary-FAKE: #F79305;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: var(--secondary);
+    color: white;
+}
+
+.card {
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 18% 82% 25% 75% / 77% 16% 84% 23%;
+    color: white;
+}
+
+.btn-watch {
+    border-radius: 51% 49% 49% 51% / 36% 66% 34% 64%;
+    box-shadow:rgb(202, 202, 202)  0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 10px;
+}
